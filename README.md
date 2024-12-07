@@ -25,7 +25,7 @@ In the file ```mbroverwrite.c``` in ```#define DISK "/dev/sda"``` is indicating 
 In the file ```mbroverwrite.c``` in ```unsigned char payload[]``` is storing the compiled file ```message.asm```, where the values are in HEX.
 
 ```
-$ git clone https://github.com/MrEmpy/MBROverwrite.git
+$ git clone https://github.com/Brosck/MBROverwrite.git
 $ cd MBROverwrite
 $ make
 $ sudo ./mbroverwrite
